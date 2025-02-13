@@ -24,6 +24,7 @@ function adicionarAmigo() {
 
     listaAmigos.push(nome);
 
+    // limpando a lista
     atualizarLista();
 
     input.value = "";
@@ -42,8 +43,8 @@ function atualizarLista() {
 
 function sortearAmigo() {
 
-    if (listaAmigos.length < 2) {
-        alert("Adicione pelo menos três nomes antes de sortear.");
+    if (listaAmigos.length <= 1) {
+        alert("Adicione pelo menos um nome antes de sortear.");
         return;
     }
 
