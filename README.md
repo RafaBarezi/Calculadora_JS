@@ -1,9 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RafaBarezi/Calculadora_JS/main/assets/Screenshot%20from%202025-02-19%2022-34-01.png" width="500" alt="descrição da imagem"/>
+  <img src="https://raw.githubusercontent.com/RafaBarezi/Calculadora_JS/main/assets/Screenshot%20from%202025-02-19%2022-34-01.png" width="500" alt="cachorro brincando com calculadora"/>
 </p>
-
-
-
 
 ### :hammer: Funcionalidades do projeto
 
@@ -14,6 +11,10 @@ Este programa é uma calculadora que permite fazer operações simples. Ela é f
 - Digite o segundo número.
 - Clique em "Calcular" e veja o resultado na tela!
 
+### 👉Acesse a calculadora online:
+
+[Clique aqui para usar a calculadora](https://calculadora-js-delta-cyan.vercel.app/)
+
 ### 🔧 Tecnologias Utilizadas
 
 <p align="center">
@@ -22,8 +23,7 @@ Este programa é uma calculadora que permite fazer operações simples. Ela é f
   <img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
-### 👉Acesse a calculadora online:
-[Clique aqui para usar a calculadora](https://calculadora-js-delta-cyan.vercel.app/)
+
  
 ### 👩🏽‍💻 Desenvolvido por: 
 
