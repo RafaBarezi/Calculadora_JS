@@ -10,37 +10,31 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-    <title> Sorteio </title>
+    <title>calculadora</title>
 </head>
 
 <body>
     <main class="main-content">
         <header class="header-banner">
-            <h1 class="main-title">Vamos fazer um sorteio?</h1>
-            <img src="assets/shih tzu sorteando nome.png" alt="Shih Tzu sorteando um nome" width="200">
-
+            <h1 class="main-title">Calculadora</h1>
+            <img src="assets/shihtzu_brincando_com_calculadora.png" alt="cachorro brincando com calculadora"
+                width="250">
         </header>
-
-        <section class="input-section">
-        
-            <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Escreva o nome de quem vai participar">
-                <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
-            </div>
-
-            <ul id="amigos" class="name-list" aria-labelledby="amigos" role="list"></ul>
-            <ul id="resultado" class="result-list" aria-live="polite"></ul>
-
-            <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear ">
-                    <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
-                    Clique para sortear
-                </button>
-            </div>
+        <section>
+            <input type="number" id="numero1" placeholder="Número">
+            <select id="operador">
+                <option value=""> Escolha um operador</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">×</option>
+                <option value="/">÷</option>
+            </select>
+            <input type="number" id="numero2" placeholder="Número">
+            <button id="calcular" onclick="calcular()" disabled>Descobrir o resutado</button>
+            <p id="resultado"></p>
         </section>
     </main>
-
-    <script src="app.js" defer></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
